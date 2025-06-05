@@ -45,20 +45,26 @@ padding: 1px 0; }
 max-width: 500px; /* Ancho máximo del contenido del footer */
 margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
 text-align: center; }
-.estilo3{
+
+.estilo3 {
 display:flex;
 list-style:none;
 justify-content: center;
 }
 .estilo3 img {
-width: 60px; /* Ancho de las imágenes dentro de la lista */
-height: 29px; /* Alto de las imágenes dentro de la lista */
-margin: 10px; /* Espacio entre las imágenes */   
+width: 200px; /* Ancho de las imágenes dentro de la lista */
+height: 40px; /* Alto de las imágenes dentro de la lista */
+margin: 0px; /* Espacio entre las imágenes */   
 justify-content: center;
 
 }
 .estilo2 {
     background-color: #ffd1e4;
+}
+
+.estilo8 {
+line-height: 1.5;      /* Espaciado entre líneas */
+text-align: left; 
 }
 /* Estilos para el nav y enlaces de ul y li */
 nav {
@@ -94,7 +100,25 @@ width: 25%; /* Asegurar que las imágenes ocupen todo el ancho del contenedor */
 height: 25%; /* Asegurar que las imágenes ocupen todo el alto del contenedor */
 display: inline-block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
 margin: 0 auto; /* Centrar las imágenes horizontalmente */
-max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+max-width: 20%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
 border: 1px solid #ffffff; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
 border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
 }
+.carruselestilo img {
+    width: 20%;
+    height: 20%;
+    display: inline-block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+
+}
+.estilo9
+line-height: 1.5;      /* Espaciado entre líneas */
+text-align: center;/* Estilos para las tarjetas */
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="Oliver">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
